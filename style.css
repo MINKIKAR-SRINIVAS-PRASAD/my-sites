@@ -1,0 +1,55 @@
+/* General Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #587191;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Main Heading */
+h1 {
+    margin-top: 40px;
+    font-size: 36px;
+    linear-gradient(90deg, #00ff84ac,#3802026c);
+    -webkit-background-clip: text;
+    font-weight: 600;
+}
+
+/* Centered List */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+/* Box Style for Each Link */
+ul li {
+    margin: 20px auto;
+    width: 280px;
+    background: #3802026c;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(48, 161, 6, 0.733);
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover Effect for Box */
+ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgb(119, 24, 24);
+}
+
+/* Link Styling */
+ul li a {
+    text-decoration: none;
+    color: #00ff84ac; 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Hover Effect for Link */
+ul li a:hover {
+    color: #05abe7;
+    background: #3b6e3f00;
+}
